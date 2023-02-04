@@ -1,2 +1,3 @@
-name, name2 = "12.2", 122
-print(float(name))
+str = '123'
+str1 = int(str)
+print(type(str1))
