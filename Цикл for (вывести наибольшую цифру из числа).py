@@ -12,6 +12,5 @@ try:
         print("Наибольшая цифра числа " + "\"" + str(chis) + "\"" + " - " + str(chis[3]))
     else:
         print("Наибольшая цифра числа " + "\"" + str(chis) + "\"" + " - " + str(chis[4]))
-
 except ValueError:
     print("Вводите только числа!")
