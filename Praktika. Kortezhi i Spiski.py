@@ -1,0 +1,5 @@
+str1 = input("Введите последовательность чисел, разделенных пробелом: ")
+print(str1)
+spis1 = str1.split(" ")
+print(spis1)
+print(tuple(spis1))
