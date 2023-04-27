@@ -4,13 +4,13 @@ m = int(input("Введите колличество столбцов: "))
 spis = [0] * n
 for i in range(n):
     spis[i] = [0] * m
-print(spis)
+    print(spis[i])
 
 print("\n"+"Второй способ создания матрицы:")
 spis1 = []
 for i in range(n):
     spis1.append([0] * m)
-print(spis1)
+    print(spis[i])
 
 print("\n"+"Третий способ создания матрицы:")
 
