@@ -46,3 +46,14 @@ with open(new_file, "w") as file:
 with open(new_file, "r") as file:
     for i in file:
         print(i, end="")
+
+print("\nЗадача №2.2:")
+
+with open("1.txt", "w") as fl:
+    while True:
+        a = input("Введите данные строки: ")
+        if a == "":
+            break
+        fl.write(a + "\n")
+
+
